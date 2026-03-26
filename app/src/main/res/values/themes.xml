@@ -18,35 +18,5 @@
         <!-- Статус бар -->
         <item name="android:statusBarColor">@color/background_dark</item>
         <item name="android:navigationBarColor">@color/background_dark</item>
-
-        <!-- Полноэкранный режим для игры -->
-        <item name="android:windowFullscreen">true</item>
-        <item name="android:windowContentOverlay">@null</item>
-    </style>
-
-    <!-- Тема для игрового процесса (полноэкранная) -->
-    <style name="Theme.EndlessRunner.Game" parent="Theme.EndlessRunner">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowFullscreen">true</item>
-    </style>
-
-    <!-- Стили для кнопок меню -->
-    <style name="GameButton" parent="Widget.Material3.Button">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">18sp</item>
-        <item name="android:textColor">@color/text_primary</item>
-        <item name="backgroundTint">@color/color_primary</item>
-        <item name="cornerRadius">8dp</item>
-    </style>
-
-    <!-- Стили для текста счёта -->
-    <style name="GameText.Score" parent="TextAppearance.Material3.HeadlineMedium">
-        <item name="android:textColor">@color/text_accent</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:shadowColor">@color/overlay_dark</item>
-        <item name="android:shadowDx">2</item>
-        <item name="android:shadowDy">2</item>
-        <item name="android:shadowRadius">4</item>
     </style>
 </resources>
