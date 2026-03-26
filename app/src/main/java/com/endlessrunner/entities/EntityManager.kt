@@ -179,14 +179,14 @@ class EntityManager private constructor() {
     
     /**
      * Рендеринг всех сущностей.
-     * 
+     *
      * @param canvas Canvas для рисования
      */
-    fun render(android.graphics.Canvas: Canvas) {
+    fun render(canvas: Canvas) {
         // Сортировка по приоритету рендеринга (опционально)
         for (entity in activeEntities) {
             if (entity.isActive && !entity.isPendingDestroy) {
-                entity.render(android.graphics.Canvas)
+                entity.render(canvas)
             }
         }
     }
