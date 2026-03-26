@@ -28,7 +28,6 @@
     <style name="Theme.EndlessRunner.Game" parent="Theme.EndlessRunner">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowFullscreen">true</item>
-        <item name="android:windowKeepScreenOn">true</item>
     </style>
 
     <!-- Стили для кнопок меню -->
