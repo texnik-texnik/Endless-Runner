@@ -1,0 +1,109 @@
+{
+  "game": {
+    "title": "Endless Runner",
+    "version": "1.0.0",
+    "targetFps": 60,
+    "fixedTimeStep": 0.016667,
+    "maxDeltaTime": 0.25,
+    "enableVSync": true,
+    "enablePhysics": true
+  },
+  "player": {
+    "speed": 5.0,
+    "jumpForce": 15.0,
+    "doubleJumpForce": 12.0,
+    "maxJumps": 2,
+    "width": 1.0,
+    "height": 1.8,
+    "acceleration": 20.0,
+    "deceleration": 10.0,
+    "airResistance": 0.98,
+    "groundFriction": 0.8,
+    "invincibilityDuration": 2.0,
+    "startLives": 3
+  },
+  "physics": {
+    "gravity": -30.0,
+    "terminalVelocity": -50.0,
+    "collisionMargin": 0.05,
+    "minBounceVelocity": 5.0,
+    "bounceDamping": 0.3,
+    "slopeLimit": 45.0,
+    "stepHeight": 0.5
+  },
+  "level": {
+    "baseSpeed": 5.0,
+    "speedIncrement": 0.5,
+    "maxSpeed": 20.0,
+    "segmentLength": 50.0,
+    "minPlatformWidth": 3.0,
+    "maxPlatformWidth": 10.0,
+    "minGapWidth": 2.0,
+    "maxGapWidth": 5.0,
+    "spawnDistance": 100.0,
+    "despawnDistance": 20.0,
+    "backgroundScrollSpeed": 0.5,
+    "parallaxLayers": 3
+  },
+  "items": {
+    "coin": {
+      "spawnChance": 0.3,
+      "value": 1,
+      "magnetRange": 5.0,
+      "rotationSpeed": 2.0
+    },
+    "powerup": {
+      "spawnChance": 0.05,
+      "duration": 10.0,
+      "types": ["shield", "speed_boost", "coin_magnet", "extra_jump"]
+    },
+    "obstacle": {
+      "minSpawnDistance": 10.0,
+      "types": ["static", "moving", "falling", "rotating"],
+      "damage": 1
+    }
+  },
+  "difficulty": {
+    "easy": {
+      "speedMultiplier": 0.8,
+      "obstacleFrequency": 0.5,
+      "itemFrequency": 1.5,
+      "gravityMultiplier": 0.9
+    },
+    "normal": {
+      "speedMultiplier": 1.0,
+      "obstacleFrequency": 1.0,
+      "itemFrequency": 1.0,
+      "gravityMultiplier": 1.0
+    },
+    "hard": {
+      "speedMultiplier": 1.3,
+      "obstacleFrequency": 1.5,
+      "itemFrequency": 0.7,
+      "gravityMultiplier": 1.1
+    }
+  },
+  "audio": {
+    "masterVolume": 0.8,
+    "musicVolume": 0.6,
+    "sfxVolume": 0.7,
+    "enableMusic": true,
+    "enableSfx": true,
+    "enableVoice": true
+  },
+  "graphics": {
+    "particleEnabled": true,
+    "particleLimit": 500,
+    "shadowsEnabled": true,
+    "antiAliasing": 2,
+    "vSync": true,
+    "lowBatteryMode": false
+  },
+  "progression": {
+    "scoreForLevel": 1000,
+    "levelSpeedBonus": 0.1,
+    "maxLevel": 50,
+    "dailyBonusEnabled": true,
+    "achievementsEnabled": true
+  }
+}

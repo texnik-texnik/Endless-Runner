@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pkg *)",
+      "Bash(cat *)",
+      "Bash(chmod *)",
+      "Bash(./gradlew *)",
+      "Bash(bash *)",
+      "Bash(timeout *)",
+      "Bash(tee *)",
+      "Bash(rm *)"
+    ]
+  },
+  "$version": 3
+}

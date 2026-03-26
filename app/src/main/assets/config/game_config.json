@@ -1,0 +1,70 @@
+{
+  "player": {
+    "speed": 800.0,
+    "jumpForce": -1200.0,
+    "gravity": 2000.0,
+    "terminalVelocity": 1500.0,
+    "width": 100.0,
+    "height": 150.0,
+    "maxHealth": 3,
+    "invincibilityTimeMs": 1500,
+    "color": -65536,
+    "spritePath": "sprites/player.png"
+  },
+  "spawn": {
+    "minCoinDistance": 200.0,
+    "maxCoinDistance": 600.0,
+    "minObstacleDistance": 1000.0,
+    "maxObstacleDistance": 2000.0,
+    "coinSpawnChance": 0.7,
+    "obstacleSpawnChance": 0.3,
+    "initialSpawnSpeed": 500.0,
+    "maxSpawnSpeed": 1500.0,
+    "speedIncreasePerSecond": 10.0
+  },
+  "coin": {
+    "width": 60.0,
+    "height": 60.0,
+    "scoreValue": 10,
+    "color": -25255,
+    "spritePath": "sprites/coin.png",
+    "rotationSpeed": 180.0,
+    "bobAmplitude": 10.0,
+    "bobFrequency": 3.0
+  },
+  "physics": {
+    "gravity": 2000.0,
+    "airFriction": 0.99,
+    "groundFriction": 0.9,
+    "bounciness": 0.0,
+    "maxVelocity": 2000.0,
+    "collisionTolerance": 1.0
+  },
+  "camera": {
+    "followSpeed": 0.1,
+    "offsetX": 0.0,
+    "offsetY": -200.0,
+    "minX": 0.0,
+    "maxX": 0.0,
+    "minY": 0.0,
+    "maxY": 0.0,
+    "parallaxSpeed1": 0.2,
+    "parallaxSpeed2": 0.5,
+    "parallaxSpeed3": 0.8
+  },
+  "difficulty": {
+    "initialLevel": 1,
+    "levelUpEveryCoins": 20,
+    "maxLevel": 10,
+    "speedMultiplierPerLevel": 0.1,
+    "scoreMultiplierPerLevel": 0.1
+  },
+  "game": {
+    "targetFps": 60,
+    "useFixedTimeStep": true,
+    "debugMode": false,
+    "showFps": true,
+    "showHitboxes": false,
+    "configPath": "config/game_config.json"
+  }
+}

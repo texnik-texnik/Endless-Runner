@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Название приложения -->
+    <string name="app_name">Endless Runner</string>
+
+    <!-- Экраны -->
+    <string name="screen_main_menu">Главное меню</string>
+    <string name="screen_game">Игра</string>
+    <string name="screen_pause">Пауза</string>
+    <string name="screen_game_over">Игра окончена</string>
+    <string name="screen_settings">Настройки</string>
+    <string name="screen_leaderboard">Таблица лидеров</string>
+
+    <!-- Кнопки -->
+    <string name="btn_start">Начать</string>
+    <string name="btn_continue">Продолжить</string>
+    <string name="btn_restart">Заново</string>
+    <string name="btn_settings">Настройки</string>
+    <string name="btn_exit">Выход</string>
+    <string name="btn_resume">Продолжить</string>
+    <string name="btn_quit">Выйти</string>
+
+    <!-- Игровые надписи -->
+    <string name="score">Счёт: %d</string>
+    <string name="high_score">Рекорд: %d</string>
+    <string name="level">Уровень: %d</string>
+    <string name="coins">Монеты: %d</string>
+    <string name="lives">Жизни: %d</string>
+
+    <!-- Сообщения -->
+    <string name="game_over_message">Игра окончена!</string>
+    <string name="pause_message">Игра на паузе</string>
+    <string name="new_high_score">Новый рекорд!</string>
+    <string name="level_complete">Уровень пройден!</string>
+
+    <!-- Настройки -->
+    <string name="setting_sound">Звук</string>
+    <string name="setting_music">Музыка</string>
+    <string name="setting_vibration">Вибрация</string>
+    <string name="setting_difficulty">Сложность</string>
+
+    <!-- Сложность -->
+    <string name="difficulty_easy">Легко</string>
+    <string name="difficulty_normal">Нормально</string>
+    <string name="difficulty_hard">Сложно</string>
+</resources>
