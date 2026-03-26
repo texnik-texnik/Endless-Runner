@@ -6,6 +6,8 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
+import androidx.room.RoomDatabase.JournalMode
+import androidx.room.RoomDatabase.Callback
 import com.endlessrunner.data.local.converter.TypeConverters
 import com.endlessrunner.data.local.dao.AchievementDao
 import com.endlessrunner.data.local.dao.GameSaveDao
