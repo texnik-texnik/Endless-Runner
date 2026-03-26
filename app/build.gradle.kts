@@ -2,7 +2,6 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.serialization)
-    id("com.google.devtools.ksp") version "1.9.22-1.0.17"
 }
 
 android {
@@ -92,21 +91,8 @@ dependencies {
     implementation(libs.koin.core)
     implementation(libs.koin.android)
 
-    // DataStore Preferences - для хранения настроек игрока
+    // DataStore Preferences - для хранения настроек и прогресса игрока
     implementation(libs.androidx.datastore.preferences)
-
-    // ============================================================================
-    // Room Database - для хранения прогресса, сохранений, достижений
-    // ============================================================================
-    val roomVersion = "2.6.1"
-    implementation("androidx.room:room-runtime:$roomVersion")
-    implementation("androidx.room:room-ktx:$roomVersion")
-    ksp("androidx.room:room-compiler:$roomVersion")
-
-    // ============================================================================
-    // KSP (Kotlin Symbol Processing) - для аннотаций Room
-    // ============================================================================
-    ksp("androidx.room:room-compiler:$roomVersion")
 
     // ============================================================================
     // Jetpack Compose - UI фреймворк
