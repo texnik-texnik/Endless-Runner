@@ -4,50 +4,35 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    
+
     <!-- Простой значок игрока (бегущий человечек) -->
     <group android:translateX="24" android:translateY="24">
         <!-- Голова -->
         <circle
-            android:cx="30"
-            android:cy="20"
+            android:centerX="30"
+            android:centerY="20"
             android:radius="10"
             android:fillColor="#FFFFFF"/>
-        
+
         <!-- Тело -->
-        <rect
-            android:x="25"
-            android:y="35"
-            android:width="10"
-            android:height="25"
-            android:fillColor="#FFFFFF"/>
-        
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M25,35h10v25h-10z"/>
+
         <!-- Ноги (бег) -->
-        <rect
-            android:x="22"
-            android:y="60"
-            android:width="5"
-            android:height="15"
-            android:fillColor="#FFFFFF"/>
-        <rect
-            android:x="33"
-            android:y="60"
-            android:width="5"
-            android:height="15"
-            android:fillColor="#FFFFFF"/>
-        
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M22,60h5v15h-5z"/>
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M33,60h5v15h-5z"/>
+
         <!-- Руки -->
-        <rect
-            android:x="15"
-            android:y="38"
-            android:width="10"
-            android:height="5"
-            android:fillColor="#FFFFFF"/>
-        <rect
-            android:x="38"
-            android:y="38"
-            android:width="10"
-            android:height="5"
-            android:fillColor="#FFFFFF"/>
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M15,38h10v5h-10z"/>
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M38,38h10v5h-10z"/>
     </group>
 </vector>
